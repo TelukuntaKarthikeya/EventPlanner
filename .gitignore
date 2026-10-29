@@ -1,44 +1,5 @@
-# Node dependencies
-**/node_modules/
 node_modules/
-frontend/node_modules/
-package-lock.json
-
-# Build outputs
-**/dist/
 dist/
-frontend/dist/
 build/
-
-# Python cache & virtualenvs
-__pycache__/
-backend/__pycache__/
-backend/engine/__pycache__/
-backend/models/__pycache__/
-backend/services/__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-
-# Environment files & secret keys (Crucial: never commit API keys)
 .env
-backend/.env
-frontend/.env
-*.env.local
-
-# Database files (optional: keep if you want fresh DB on each clone)
-# backend/planora.db
-
-# Logs
-*.log
-npm-debug.log*
-
-# IDE / OS metadata
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+.env.local
